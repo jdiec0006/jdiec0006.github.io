@@ -13,16 +13,24 @@
 			<h1>Title Of Page</h1>
 			<div id="main-nav-container-desktop-nav"> 
 			<nav class="main-nav-container-desktop-nav">
-					<a href="#" class="button">Home</a>
-					<a href="#" class="button">About</a>
-					<a href="#" class="button">Contact</a>
-					<a href="#" class="button">Work</a>
+					<ul><li class="nav-item">
+						<a href="#" class="button">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="button">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="button">Contact</a>
+					</li>
+						<li class="nav-item"><a href="#" class="button">Work</a>
+						</li>
+					</ul>
 			</nav>
 			</div>
 		</header>
 	</div>	
 		<main id="main" class="main"> 	
-			<section  class="content">
+			<section  class="content clearfix">
 				<div id="main-content">
 				<h2 class="sub-head" style="font-style: initial;">Main Content Title</h2>
 				<p >
@@ -45,37 +53,51 @@
 				</aside>
 			</section>
 
-			<section class="content-images">
+			<section class="image-gallery clearfix">
 				<h2>Secondary Content title</h2>
-				<div class="c2">
- 	     			<img src="img/Image.jpg" alt="image" width="200" height="150">
- 	     		</div>	
- 	     			<figcaption>Image 1</figcaption>
-       			<div>	
- 	     			<img
- 	     			 src="img/Image.jpg" alt="image" width="200" height="150">
-       			</div>	
-       				<figcaption>Image 2</figcaption>
-     			<div>	
-     				<img src="img/Image.jpg" alt="image" width="200" height="150">
-       			</div>
-       				<figcaption>Image 3</figcaption>
-      				
+				<div class="image-gallery-container clearfix">
+					<figure class="img-slide"> 
+						<img src="img/Image.jpg" alt="Gallery Image 1" width="200" height="150">
+					</figure>
+					<figure class="img-slide">
+						<img src="img/Image.jpg" alt="Gallery Image 2" width="200" height="150">
+					</figure>
+					<figure class="img-slide">
+						<img src="img/Image.jpg" alt="Gallery Image 3" width="200" height="150">
+					</figure>
+				</div>		
 			</section>
-			
+
+
+
+
 		</main>
 
-		<footer >
-			<div id=footer class="container">
-			<p>Copyright 2017, All rights reserved.</p>
-			 <div class="column">
-			 <img src="img/facebook.png" class="icon 1" alt="facebook"> 
-			 <img src="img/youtube.png" class="icon 2" alt="youtube"> 
-			 <img src="img/twitter.png" class="icon 3" alt="twitter">
-			</div>
-			</div>
-		</footer>
-
-
+		<footer> 
+			<div id="footer" class="container"> 
+				<p>Copyright 2017, All rights reserved.</p> 
+				<section class="col-footer social-media clearfix"> 
+					<nav> 
+						<ul> 
+							<li> 
+								<a href="facebook.com"> 
+									<img src="img/facebook.png" class="icon 1" alt="facebook"> 
+								</a> 
+							</li> 
+							<li> 
+								<a href="twitter.com"> 
+									<img src="img/youtube.png" class="icon 2" alt="youtube"> 
+								</a> 
+							</li> 
+							<li> 
+								<a href="instagram.com"> 
+									<img src="img/twitter.png" class="icon 3" alt="twitter"> 
+								</a> 
+							</li> 
+						</ul> 
+					</nav> 
+				</section> 
+			</div> 
+		</footer>	
 </body>
 </html>
