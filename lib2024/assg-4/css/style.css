@@ -1,11 +1,102 @@
 @charset "utf-8";
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
 h1 {
-			color: #000000;
-			text-align: left;
-			width: 1150px;
-			float: right;
-		}
+	color: #000000;
+	text-align: left;
+	width: 1150px;
+	float: right;
+	font-size: 40px;
+}
+
 h2{
 	color: #000000;
 	text-align: left;
@@ -22,6 +113,10 @@ h4{
 	color: #000000;
 	text-align: left;
 	font-size: 30px;
+}
+
+h5{
+	float: left;
 }
 
 body {
@@ -89,49 +184,19 @@ p {
 	box-sizing: border-box;
 }
 
-.content-images {
-	padding: 10px; 
-}
+.image-gallery .img-slide {
+		width: 33%;
+		padding: 10px;
+		box-sizing: border-box;
+		float: left;
+	}
 
-.c2 {
-  float: left;
-  width: 30%;
-  padding: 5px;
-  box-sizing: border-box;
-}
-.c2::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-#sub-head {
-	text-align: left;
-	font-weight: 100;
-	padding: 10px;
-	margin: 10px;
-
-}
-
-#footer {
-	background-color:#7cc576;
-	padding: 2px; 
-	box-sizing: border-box;
-
-}
-
-.column {
-  float: right;
-  width: 5%;
-  padding: 5px;
-  border: 10px;
-  color: #7cc576;
-}
-
-  
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-
-}
+	
+.col-footer {
+		width: 100%;
+		background-color:#7cc576;
+		box-sizing: border-box;
+		margin: 0 1%;
+		padding: 10px;
+		float: left;
+	}
