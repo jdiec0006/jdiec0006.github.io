@@ -95,6 +95,7 @@ h1 {
 	width: 1150px;
 	float: right;
 	font-size: 40px;
+	padding-top: 30px;
 }
 
 h2{
@@ -117,23 +118,22 @@ h4{
 
 h5{
 	float: left;
+	padding-top: 30px; 
 }
 
 body {
-
-	background-image: url("../images/brick_wall.png");
-
-			color: #000000;
-			font-size: 28px;
-
+	background-image: url("../img/brick_wall.png");
+	color: #000000;
+	font-size: 28px;
 }
-	#main-content{
-				width: 66%;
-				text-align: left;
-				float: left;
-				padding: 10px;
-				margin: 4px;
-				}
+
+#main-content{
+	width: 66%;
+	text-align: left;
+	float: left;
+	padding: 10px;
+	margin: 4px;
+}
 
 
 .clearfix:after {
@@ -151,28 +151,25 @@ p {
 	background-color:#7cc576;
 	text-align: left;
 	height: 250px;
-
-
 }
 
 #main-nav-container-desktop-nav {
 	text-align: left;
 	padding-left:10px;
-
 }
 .button {
-  background-color: #6cdff6;
-  border: none;
-  border-radius: 5px;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 35px;
-  margin: 4px 65px;
-  cursor: pointer;
-  float: left;
+	background-color: #6cdff6;
+	border: none;
+	border-radius: 5px;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 35px;
+	margin: 4px 65px;
+	cursor: pointer;
+	float: left;
 }
 
 #col-main-site-sidebar {
@@ -185,18 +182,26 @@ p {
 }
 
 .image-gallery .img-slide {
-		width: 33%;
-		padding: 10px;
-		box-sizing: border-box;
-		float: left;
-	}
+	width: 33%;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+}
 
 	
 .col-footer {
-		width: 100%;
-		background-color:#7cc576;
-		box-sizing: border-box;
-		margin: 0 1%;
-		padding: 10px;
-		float: left;
-	}
+	width: 100%;
+	background-color:#7cc576;
+	box-sizing: border-box;
+	margin: 0 0%;
+	padding: 10px;
+	float: left;
+}
+.social-media-icons {
+	width: 55px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: right;
+	text-align: center;
+}
