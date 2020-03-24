@@ -94,7 +94,7 @@ h1 {
 	text-align: left;
 	width: 1150px;
 	float: right;
-	font-size: 40px;
+	font-size: 45px;
 	padding-top: 30px;
 }
 
@@ -102,23 +102,26 @@ h2{
 	color: #000000;
 	text-align: left;
 	font-size: 38px;
+	padding-bottom: 15px;
 }
 
 h3{
 	color: #000000;
 	text-align: left;
 	font-size: 30px;
+	padding-left: 12px;
 }
 
 h4{
 	color: #000000;
 	text-align: left;
 	font-size: 30px;
+	padding-bottom: 12px;
 }
 
 h5{
 	float: left;
-	padding-top: 30px; 
+	padding-top: 25px; 
 }
 
 body {
@@ -172,13 +175,21 @@ p {
 	float: left;
 }
 
-#col-main-site-sidebar {
-	width: 10%;
+.col-main-site-sidebar {
+
 	text-align: left;
 	float: right;
 	padding: 10px;
-	margin: 4px;
+	width: 30%;
+	margin: 5px;
 	box-sizing: border-box;
+}
+
+	
+.sidebar-image {
+	box-sizing: border-box;
+	padding: 20px;
+	padding-top: 30px;
 }
 
 .image-gallery .img-slide {
