@@ -143,6 +143,81 @@
 				< link rel="stylesheet" href="styles.css" >
 			</p>
 		</li>
+
+		<li>
+			<p>
+				<strong>Qus 13:</strong>
+				Create CSS block to center an element both horizontally and vertically that has position:absolute and has width:200px and height:200px.
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				.element-name {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				width: 200px;
+				height: 200px;
+				}
+			</p>
+		</li>
+
+		<li>
+			<p>
+				<strong>Qus 14:</strong>
+				Create CSS keyframes block called "spin" that rotates an element.
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				.loader {
+				animation: 
+				spin 0.25s linear infinite;
+				}
+			</p>
+		</li>
+
+		<li>
+			<p>
+				<strong>Qus 15:</strong>
+				Create CSS animation block to rotate an element that has the following properties :		
+			</p>
+			<p>	
+				a) class "rotate-me"
+			</p>
+			<p>	
+				b) It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin"
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				.rotate-me {
+				animation: 
+				spin 0.5s linear 5;
+				}
+
+				@keyframes spin {
+								from {
+										transform: rotate(0deg);
+									}
+								to {
+										transform: rotate(360deg);
+									}
+				}
+			</p>
+		</li>
+
+		<li>
+			<p>
+				<strong>Qus 16:</strong>
+				How would you include create an alert with string "I love JavaScript" using JavaScript?
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				< script >
+				function myFunction() {
+  				alert("I love JavaScript");
+				}
+</script>
+			</p>
+		</li>
   </ol>
 </body>
 </html>
