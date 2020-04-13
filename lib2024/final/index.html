@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<title>Final</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+
+	<div class="overlay-container loader-container">
+		<div class="loader"></div>
+	</div>
+
+	<div id="container" class="container">
+	<header class="site-header clearfix" id="site-header">
+		<div class="logo">
+			<h1>My Logo</h1>
+		</div>
+		<div id="main-nav-container-desktop-nav"> 
+		<nav class="main-nav-container desktop-nav">
+			<ul class="main-nav clearfix">
+				<li>
+					<a href="home.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+				<li>
+					<a href="schedule.html">Schedule</a>
+				</li>
+				<li>
+					<a href="portfolio.html">Portfolio</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		</div>
+	</header>
+	</div>
+
+		<main class="main clearfix" id="main">
+			<section class="Col-main-content">
+				<div id="main-content">
+				<h2 class="sub-head" style="font-style: initial;">About</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum mauris eu leo venenatis, ac suscipit lectus suscipit. Ut elementum sagittis leo, in varius ante volutpat vitae. Quisque tempor congue convallis. Morbi tristique metus posuere bibendum finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec venenatis, orci ut tincidunt aliquet, velit dolor finibus tellus, vitae consequat neque purus in velit. In hac habitasse platea dictumst.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum mauris eu leo venenatis, ac suscipit lectus suscipit. Ut elementum sagittis leo, in varius ante volutpat vitae. Quisque tempor congue convallis. Morbi tristique metus posuere bibendum finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec venenatis, orci ut tincidunt aliquet, velit dolor finibus tellus, vitae consequat neque purus in velit. In hac habitasse platea dictumst.</p>
+				</div>
+
+				<aside class="col-main-site-sidebar-1 clearfix">
+					<div id="sidebar">
+						<img src="img/download.jpg" class="sidebar-image" alt="sidebar image">	
+					</div>	
+				</aside>
+			</section>
+
+			<section class="schedule">
+				<h2>Schedule</h2>
+				<table>
+					<thead>
+						<tr>
+							<th>Time</th>			
+							<th>Monday</th>
+							<th>Tuesday</th>
+							<th>Wednesday</th>
+							<th>Thursday</th>
+							<th>Friday</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>09:00 - 11:00</td>
+							<td>Communications I</td>
+							<td>Client Services</td>
+							<td>Special Collections</td>
+							<td>Directed Research Seminar</td>
+							<td>Client Services</td>
+						</tr>
+						<tr>
+							<td>11:00 - 12:30</td>
+							<td>Reference</td>
+							<td>Internet App</td>
+							<td>Library Software</td>
+							<td>French</td>
+							<td>Reference</td>
+						</tr>
+						<tr>
+							<td>14:00 - 15:00</td>
+							<td>Acquisitions</td>
+							<td>General Elective</td>
+							<td>Marketing</td>
+							<td>Emerging Library Tech</td>
+							<td>Library Software</td>
+						</tr>
+						<tr>
+							<td>15:30 - 17:30</td>
+							<td>French</td>
+							<td>French</td>
+							<td>Acquisitions</td>
+							<td>Subject Analysis</td>
+							<td>Internet App</td>
+						</tr>	
+					</tbody>
+				</table>
+			</section>
+
+			<section id="html-forms" class="profile">
+					<h2>Edit Profile</h2>
+				<form action="somepage.php" method="get">
+
+					<div id="name-container" class="form-elm">
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name">
+					</div>
+
+					<div id="email-container" class="form-elm">
+						<label for="email">Email</label>
+						<input type="text" name="email" id="email">
+					</div>
+
+					<div id="address-container" class="form-elm">
+						<label for="address">Address</label>
+						<input type="text" name="address" id="address">
+					</div>
+
+					<div id="city-container" class="form-elm">
+						<label for="city">City</label>
+						<input type="text" name="city" id="city">
+					</div>
+
+					<div id="province-contianer" class="form-elm">	
+						<label for="province">Province</label>
+						<select id="province" name="province">
+								<option value="select province">Select Province</option>
+								<option value="alberta">Alberta</option>
+								<option value="british columbia">British Columbia</option>
+								<option value="nova scotia">Nova Scotia</option>
+								<option value="nunavut">Nunavut</option>
+								<option value="ontario">Ontario</option>
+								<option value="saskachewan">Saskachewan</option>
+								<option value="quebec">Quebec</option>
+						</select>		
+					</div>
+
+					<div id="postal-container" class="form-elm">
+						<label for="postal">Postal code</label>
+						<input type="text" name="postal" id="postal">
+					</div>
+
+					<button type="submit">Submit</button>	
+
+				</form>			
+			</section>
+
+			<section class="sidebar-profile">
+				<i class="fa fa-user-circle-o"></i>
+				<h2>Profile Info</h2>
+				<p>JohnDoe@algonquincollege.com
+				1385 Woodroffe Ave, Nepean, ON, K2G 1V5</p>
+				<p>&#9993;</p>
+			</section>
+	</main>
+
+	<footer>
+		<div id="footer-list" class="container">
+		<Section>
+			<h4>Quick Links</h4>
+			<nav class="footer-nav-container desktop-nav">
+				<ul class="footer-nav clearfix">
+					<li>
+						<a href="schedule.html">Schedule</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<a href="portfolio.html">Portfolio</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</Section>
+		</div>
+
+		<div id="footer-social" class="container">  
+		<section>
+				<h5>Follow Us</h5>
+			<nav> 
+				<ul> 
+					<li class="social-media-icons"> 
+						<a href="twitter.com"> 
+							<img src="img/twitter.png" class="icon 1" alt="twitter"> 
+						</a> 
+					</li> 
+					<li class="social-media-icons"> 
+						<a href="youtube.com"> 
+							<img src="img/youtube.png" class="icon 2" alt="youtube"> 
+						</a> 
+					</li> 
+					<li class="social-media-icons"> 
+						<a href="facebook.com"> 
+							<img src="img/facebook.png" class="icon 3" alt="facebook"> 
+						</a> 
+					</li> 
+				</ul>
+			</nav>	
+		</section>
+		</div>
+		<section>
+			<h6>1385 Woodroffe Ave, Nepean, ON K2G 1V8 Canada</h6>
+		</section>
+			
+	</footer>		
+
+</body>
+</html>			
